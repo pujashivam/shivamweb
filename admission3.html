@@ -1,0 +1,446 @@
+<html>
+	<head>
+		<style type="text/css">
+		     body{
+				margin:0px;
+			}
+			#mainarea{
+				width:100%;
+				height:100%;
+				background:#EFEFEF;
+				margin:0 auto;
+			}
+			.myarea{
+				width:1200px;
+				margin:0 auto;
+			}
+			#menuarea{
+				width:100%;
+				height:50px;
+				background:#B45550;
+				padding-top:0.5px;
+			}
+			#toparea{
+				width:100%;
+				height:200px;
+				background:#EFEFEF;
+			}
+			.logoarea{
+				width:20%;
+				height:90%;
+				background:url(logo1.png) no-repeat center;
+				background-size:150px;
+				float:left;
+			}
+			.sarea{
+				width:60%;
+				height:90%;
+				float:left;
+			}
+			
+			.logoarea1{
+				width:20%;
+				height:90%;
+				background:url(logo2.png) no-repeat center;
+				background-size:150px;
+				float:right;
+			}
+			#link{
+				width:93.38%;
+				height:50px;
+				background:#FFFFFF;
+				padding-left:90px;
+			}
+			#link ul li{
+				float:left;
+			} 
+			#link ul{
+				/*list-style-type:lower-greek;
+				list-style-image:url('arr.png');
+				list-style-position:inside;*/
+				list-style:none;
+				margin:0;
+				padding:0;
+			}
+			#link ul li a:link,#link ul li a:visited{
+				color:black;
+				text-decoration:none;
+				background:white;
+				padding:15PX 9.15px;
+				display:block;
+				border-right:solid 0px black;
+			}
+		        #link ul li a:hover{
+				background:grey;
+				color:blue;
+			}
+			#link ul li:last-child a:link,#link ul li:last-child a:visited{
+				border:none;
+			}
+			#link ul li ul li{
+				float:none;
+			}
+			#link ul li ul{
+				display:none;
+			}
+			#link ul li:hover ul{
+				display:block;
+				position:absolute;
+				z-index:1000;
+			}
+			#about{
+				width:100%;
+				height:60px;
+				background:#428BCA;
+				padding-top:1px;
+			}
+			#aabout{
+				width:100%;
+				height:60px;
+				background:#356FA2;
+				float:left;
+			}
+			#babout{
+				width:100%;
+				height:1600px;
+				background:#EFEFEF;
+			}
+			#babout1{
+				width:160px;
+				height:50px;
+				background:#428BCA;
+				float:left;
+				margin-top:75px;
+				margin-left:80px;
+				border-radius:25px;
+			}
+			#babout1 h2{
+				margin-top:12px;
+			}
+			#babout2{
+				width:85%;
+				height:100px;
+				background:#EFEFEF;
+				padding-left:90px;
+				padding-top:200px;
+			}
+			#babout2 p{
+				text-align:justify;
+			}
+			#babout3{
+				width:180px;
+				height:50px;
+				background:#428BCA;
+				float:left;
+				margin-top:10px;
+				margin-left:80px;
+				border-radius:25px;
+			}
+			#babout3 h2{
+				margin-top:12px;
+			}
+			#babout4{
+				width:85%;
+				height:170px;
+				background:#EFEFEF;
+				padding-left:90px;
+				padding-top:80px;
+			}
+			#babout5{
+				width:170px;
+				height:50px;
+				background:#428BCA;
+				float:left;
+				margin-top:10px;
+				margin-left:80px;
+				border-radius:25px;
+			}
+			#babout5 h2{
+				margin-top:12px;
+			}
+			#babout6{
+				width:85%;
+				height:130px;
+				background:#EFEFEF;
+				padding-left:90px;
+				padding-top:80px;
+			}
+			#babout7{
+				width:170px;
+				height:50px;
+				background:#428BCA;
+				float:left;
+				margin-top:15px;
+				margin-left:80px;
+				border-radius:25px;
+			}
+			#babout7 h2{
+				margin-top:12px;
+			}
+			#babout8{
+				width:85%;
+				height:60px;
+				background:#EFEFEF;
+				padding-left:90px;
+				padding-top:90px;
+			}
+			#babout8 p{
+				text-align:justify;
+			}
+			#babout9{
+				width:290px;
+				height:50px;
+				background:#428BCA;
+				float:left;
+				margin-top:10px;
+				margin-left:80px;
+				border-radius:25px;
+			}
+			#babout9 h2{
+				margin-top:12px;
+			}
+			#babout10{
+				width:85%;
+				height:390px;
+				background:#EFEFEF;
+				padding-left:90px;
+				padding-top:80px;
+			}
+			#babout11{
+				width:240px;
+				height:50px;
+				background:#428BCA;
+				float:left;
+				margin-top:10px;
+				margin-left:80px;
+				border-radius:25px;
+			}
+			#babout11 h2{
+				margin-top:12px;
+			}
+			#babout12{
+				width:85%;
+				height:150px;
+				background:#EFEFEF;
+				padding-left:90px;
+				padding-top:80px;
+			}
+			#footerarea{
+		    width:100%;
+                    height:500px;
+                    background:#222222;
+		    float:left;
+		}
+		#footerarea1{
+		    width:29%;
+		    height:300px;
+		    background:#222222;
+	            float:left;
+		    margin-top:50px;
+		    margin-left:100px;
+			}
+		.dev{
+				width:100%;
+				float:left;
+				border-top:solid white 5px;
+				margin-top:20px;
+			}
+		#footerarea1 h3{
+				border-left:solid blue 3px;
+				padding-left:5px;
+			}
+		#footerarea2{
+		    width:28%;
+		    height:140px;
+		    background:#222222;
+	            float:right;
+		    margin-top:50px;
+		    margin-right:100px;
+			}
+		#footerarea2 img{
+		    width:80px;
+		    height:80px;
+		    float:left;
+		}
+		#footerarea2 h3{
+				border-left:solid blue 3px;
+				padding-left:5px;
+			}
+		#footerarea2 p a:link{
+			text-decoration:none;
+		}
+		#footerarea3{
+		    width:32%;
+		    height:200px;
+		    background:#222222;
+	            float:left;
+		    margin-top:25px;
+		    margin-left:20px;
+		}
+		#footerarea3 img{
+		    padding-top:-50px;
+		}
+		#footerarea3 h3{
+				border-left:solid blue 3px;
+				padding-left:5px;
+			}
+		#lastarea{
+		    width:100%;
+		    height:50px;
+		    background:#111111;
+		    float:left;
+		}
+               </style>
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="menuarea" class"myarea">
+				<h3><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.P. Dhanbad is working efficiently to achieve proficiency in technical education &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This Site updated on:August 25, 2022</font></h3>
+			</div>
+			<div id="toparea" class"myarea">
+			<div class="myarea">
+				<div class="logoarea">
+				</div>
+				<div class="sarea">
+					<h1 align="center"><font color="#74353F" size="15"><b>Government Polytechnic Dhanbad</b></font></h1>
+					<h2 align="center">Department of Higher & Technical Education, Government of Jharkhand</h2>
+				</div>
+				<div class="logoarea1">
+				</div>
+			</div>
+			</div>
+			<div id="link" class"myarea">
+			   <ul>
+				<li><a href="gpd.html">HOME</a></li>
+				<li><a href="#"><font="grey">ABOUT US</font></a>
+					<ul>
+						<li><a href="about1.html">ABOUT INSTITUTE<a></li>
+						<li><a href="about2.html">MISSION & VISION<a></li>
+						<li><a href="about3.html">PRINCIPAL DESK<a></li>
+						<li><a href="about4.html">FACILITIES<a></li>
+					</ul>
+				</li>
+				<li><a href="#"><font="grey">DEPARTMENTS</font></a>
+					<ul>
+						<li><a href="#">MECHANICAL<a></li>
+						<li><a href="#">ELECTRICAL<a></li>
+						<li><a href="#">CIVIL<a></li>
+						<li><a href="#">COMPUTER SCIENCE<a></li>
+					</ul>
+				</li>
+				<li><a href="#"><font="grey">ADMISSION</font></a>
+					<ul>
+						<li><a href="admission1.html">ADMISSION PROCESS<a></li>
+						<li><a href="#">FEE STRUCTURE<a></li>
+						<li><a href="admission3.html">RULES & REGULATIONS<a></li>
+					</ul>
+				</li>
+				<li><a href="#"><font="grey">NOTICE</font></a></li>
+				<li><a href="#"><font="grey">PLACEMENT</font></a></li>
+				<li><a href="#"><font="grey">TENDER</font></a></li>
+				<li><a href="#"><font="grey">MANDETORY DISCLOSURE</font></a></li>
+				<li><a href="#"><font="grey">GRIEVANCE CELL</font></a></li>
+				<li><a href="#"><font="grey">CONTACT US</font></a></li>
+			   </ul>
+			</div>
+			<div id="about">
+				<h1><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~:RULES & REGULATION:~</font></h1>
+			</div>
+			<div id="aabout">
+				<h3><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Government Polytechnic Dhanbad is working efficiently to achieve proficiency in technical education</font></h3>
+			</div>
+			<div id="babout">
+				<div id="babout1">
+					<h2><font color="white">&nbsp;&nbsp;&nbsp;Admission:-</font></h2>
+				</div>
+				<div id="babout2">
+				<li>The number of seats in each branch of diploma programme for which admission is to be made will be decided by AICTE.</li>
+				<li>Admission to all courses will be made in odd semester of each session. At the first year level, a polytechnic entrance examination is conducted by JCECE Board, Ranchi for &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selection of students. Details of rules of polytechnic entrance examination of JCECEB are available in information brochure published by JCECEB every year.</li>
+				</div>
+				<div id="babout3">
+					<h2><font color="white">&nbsp;&nbsp;&nbsp;Registration:-</font></h2>
+				</div>
+				<div id="babout4">
+				<li>After the Admission, registration of each student is compulsory.</li>
+				<li>Each student has to submit the attested copy of allotment letter in the registration cell, issued to him/her by JCECEB for registration.</li>
+				<li>Each students has to submit the photo copy of passing certificate of 10th exam.</li>
+				<li>Student should have to affix those photo graph submitted by him/her the time of counseling in the office of JCECEB, Ranchi on the registration form.</li>
+				<li>Any change in the name or fathers name is not allowed to students after registration.</li>
+				<li>Registration certificate issued by SBTE, Ranchi is an important document. Therefore all students have to keep it and preserve it in original format. For details visit the Web site &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of SBTE, Jharkhand.</li>
+				</div>
+				<div id="babout5">
+					<h2><font color="white">&nbsp;&nbsp;&nbsp;Attendance:-</font></h2>
+				</div>
+				<div id="babout6">
+				<li>Students are required to attend all the classes (Lecturers, Tutorial, laboratories Practical, Workshops, field work, vocational training) for which they have been registered.</li>
+				<li>Students are also required to participate the community development program and other social activities, designed by the institute.</li>
+				<li>Each students has to submit the photo copy of passing certificate of 10th exam.</li>
+				<li>A student will be debarred from appearing in an examination if his/her attendance falls below 75 percent.</li>
+				<li>If the period of leave is for a short duration (less than two weeks), prior application for leave shall have to be submitted to the head of the department concerned.</li>
+				</div>
+				<div id="babout7">
+					<h2><font color="white">&nbsp;&nbsp;&nbsp;Scholarship:-</font></h2>
+				</div>
+				<div id="babout8">
+				<li>Dept. of Welfare, Govt. of Jharkhand offers post matric scholarship to students studying in diploma program details are available on 210.212.80.84/e-kalyanhelp.</li>
+				<p></p>
+				</div>
+				<div id="babout9">
+					<h2><font color="white">&nbsp;&nbsp;&nbsp;Conduct and Discipline:-</font></h2>
+				</div>
+				<div id="babout10">
+				<li>Student shall conduct themselves within and outside the premises of the institute in a manner befitting the students of an institute of national importance.</li>
+				<li>Ragging in any form is banned: acts or ragging will be considered as gross indiscipline and will be severely dealt with.</li><br>
+				<p>The following acts of omission and/or commission shall constitute gross violation of the code of conduct and are liable to invoke disciplinary measures:</p>
+				<li>Ragging</li>
+				<li>Lack of courtesy and decorum; indecent behavior anywhere within or outside the campus.</li>
+				<li>Willful damage or stealthy removal of any property/belongings of the institute/Hostel or of fellow students.</li>
+				<li>Possession, consumption or distribution of alcoholic drinks or any kind of hallucinogenic drugs.</li>
+				<li>Mutilation or unauthorized possession of library books.</li>
+				<li>Noisy and unseemly behavior, disturbing studies of fellow students.</li>
+				<li>Hacking in computer system (such as entering other persons area without prior permission, manipulation and/or damage of computer hardware and software etc.)</li>
+				<li>Any other act of gross indiscipline commensurate with the gravity of the offence, the punishment may be reprimand, fine, expulsion from the hostel, debarment from and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;examination, rustication for a specified period or even outright expulsion from the institute.</li>
+				<li>For an offence committed in (a) a hostel, (b) a department or in a classroom and (c) elsewhere, the warden, the head of the department and principal respectively, shall have &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the authority to reprimand or impose fine. All cases involving punishment other than reprimand shall be reported to the chairman, students disciplinary committee.</li>
+				<li>All major acts of indiscipline, which may have serious implication on the general body of students, and/or which may warrant a uniform and more formalized nature of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;investigation, shall be handled by the students Disciplinary committee, appointed by the principal.</li>
+				<li>In the event of a major punishment, the aggrieved party shall have the right to appeal director, Science and Technology, Govt. of Jharkhand.</li>
+				</div>
+				<div id="babout11">
+					<h2><font color="white">&nbsp;&nbsp;&nbsp;Change of Branch:-</font></h2>
+				</div>
+				<div id="babout12">
+				<li>Normally a student admitted to a particular branch of the diploma programme will continue studying in that branch till completion.However, in special cases the institute &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;may permit a student admitted through JCECEB change from one branch of studies to another after the first</li>
+				<li>Normally a student admitted to a particular branch of the diploma programme will continue studying in that branch till completion.</li>
+				<li>However, in special cases the institute may permit a student admitted through JCECEB change from one branch of studies to another after the first</li>
+				</div>
+			</div>
+			<div id="footerarea">
+			<div id="footerarea1">
+				<h3><font color="#fdfdfd"<b>ABOUT US</b></font></h3>
+				<div class="data">
+					<p><font color="white"><b>Government Polytechnic Dhanbad is working efficiently</b><br/>to achieve proficiency in technical education and will<br/>blossom into an institution par excellence. The<br/>management has provided all infrastructure facilities<br/>required for quality education.</font></p>
+					<p><a href="tel: 0326-2313-894"><font color="#F2C38B"><font color="white">Call <b>|</b>  0326-2313-894</font></a></font></p>
+					<p><a href="polytechnic_dhanbad@yahoo.co.in"><font color="blue">Add | polytechnic_dhanbad@yahoo.co.in</font></a></font></p>
+				</div>
+			</div>
+			<div id="footerarea2">
+				<h3><font color="#fdfdfd"<b>LATEST NEWS</b></font></h3>
+				<div class="data">
+					<img src="compass.png"/>
+					<p><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;Notice</a><br><font color="white"><small>&nbsp;&nbsp;&nbsp;&nbsp;Notice REGARDING E- KALYAN<br>&nbsp;&nbsp;&nbsp;&nbsp;SCHOLARSHIP FORM FILL UP & BONAFIDE…</small></font></p>
+					<p></p>
+				</div>
+			</div>
+			<div id="footerarea3">
+				<h3><font color="white">FIND US !</font></h3>
+				<img src="scr1.png"/>
+			</div>
+			<div class="dev" align="center">
+					<h2><font color="#fdfdfd"><B>~:&nbsp;Developed By SHIVAM KUMAR&nbsp;:~</B></font></h2>
+			</div>
+		</div>
+		<div id="lastarea">
+			<p><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright ©2022 all rights reserved&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered by Web Emission</font></p>
+		</div>
+		</div>
+	</body>		
+</html>
